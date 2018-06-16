@@ -34,6 +34,10 @@ def initial_round
   display_card_total(deal_card + deal_card)
 end
 
+def invalid_command
+  # code invalid_command here
+end
+
 def hit?(card_total)
   # code hit? here
   prompt_user
