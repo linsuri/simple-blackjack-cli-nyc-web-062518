@@ -11,6 +11,7 @@ end
 def display_card_total(card_total)
   # code #display_card_total here
   puts "Your cards add up to #{card_total}"
+  card_total
 end
 
 def prompt_user
@@ -30,6 +31,7 @@ end
 
 def initial_round
   # code #initial_round here
+  display_card_total(deal_card + deal_card)
 end
 
 def hit?
