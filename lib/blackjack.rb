@@ -36,6 +36,7 @@ end
 
 def invalid_command
   # code invalid_command here
+  puts "Please enter a valid command"
 end
 
 def hit?(card_total)
@@ -50,10 +51,6 @@ def hit?(card_total)
   else
     invalid_command
     prompt_user
-end
-
-def invalid_command
-  # code invalid_command here
 end
 
 #####################################################
