@@ -61,8 +61,7 @@ end
 def runner
   # code runner here
   welcome
-  initial_round
-  hit?
+  hit?(initial_round)
   if card_total > 21
     end_game
   end  
