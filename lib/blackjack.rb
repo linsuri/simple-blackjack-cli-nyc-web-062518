@@ -23,8 +23,9 @@ def get_user_input
   input = gets.chomp
 end
 
-def end_game
+def end_game(card_total)
   # code #end_game here
+  puts 
 end
 
 def initial_round
